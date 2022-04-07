@@ -24,7 +24,7 @@ from delfin.drivers import manager as driver_manager
 from delfin.task_manager.tasks import alerts, telemetry
 
 LOG = log.getLogger(__name__)
-
+#this contains all task manager interfaces
 
 class TaskManager(manager.Manager):
     """manage periodical tasks"""
